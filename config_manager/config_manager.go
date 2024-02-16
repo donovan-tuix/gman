@@ -3,11 +3,12 @@ package config_manager
 import (
 	"bufio"
 	"fmt"
-	"gman/config_paths"
 	"io"
 	"os"
 	"regexp"
 	"strings"
+
+	"github.com/donovan-tuix/gman/config_paths"
 )
 
 type ConfigManager struct {

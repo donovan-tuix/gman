@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"gman/config_manager"
 	"os"
+
+	"github.com/donovan-tuix/gman/config_manager"
 )
 
 func main() {
